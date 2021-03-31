@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<title>Dieedid</title>
+
+	<link rel="stylesheet" href="css/scss.css">
+
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial scale=1.0, maximum scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body class="ru">
+	<div class="wrapper">
+		<header class="header">
+			<div class="_container">
+				<img src="img/svg/logo.svg" alt="лого" class="logo">
+				<div class="header__right-column">
+
+					<div class="language-icon">
+						<img src="img/svg/russian.svg" id="ru" class="language-icon__icon active">
+						<img src="img/svg/open-close-arrow.svg" alt="" class="open-close-arrow">
+						<div class="language-icon__list">
+							<img src="img/svg/estonia.svg" id="en" class="language-icon__icon">
+						</div>
+					</div>
+					<a href="#" class="header__btn _button _green-button" lang="ru">открыть мою программу</a>
+					<a href="#" class="header__btn _button _green-button" lang="en">open my program</a>
+				</div>
+			</div>
+		</header>
+
+		<ul class="main-pages">
+			<li id="page_1" class="active">
+				<div class="main-block _container">
+					<h1 class="title _title-left" lang="ru">Персональная кето диета на 28 дней!</h1>
+					<h1 class="title _title-left" lang="en">Personal keto diet for 28 days!</h1>
+					<form class="choose-gender">
+						<h2 lang="ru">Выбери свой пол</h2>
+						<h2 lang="en">Choose your gender</h2>
+						<input id="male" type="radio" name="gender-button" value="male">
+						<label for="male" class="male-label"></label>
+						<input id="female" type="radio" name="gender-button" value="female">
+						<label for="female" class="female-label"></label>
+					</form>
+				</div>
+				<div class="page-bg">
+					<div class="_container">
+						<div class="page-bg__green-list">
+							<img src="img/svg/green/1.svg">
+							<img src="img/svg/green/2.svg">
+							<img src="img/svg/green/3.svg">
+							<img src="img/svg/green/4.svg">
+							<img src="img/svg/green/5.svg">
+							<img src="img/svg/green/6.svg">
+							<img src="img/svg/green/7.svg">
+							<img src="img/svg/green/8.svg">
+						</div>
+						<div class="page-bg__v-women"><img src="img/woman-vegitable.png" alt=""></div>
+					</div>
+				</div>
+			</li>
+			<li id="page_2">
+				<div class="physical-activity _container">
+					<div class="title-center">
+						<h2 class="title" lang="ru">ФИЗИЧЕСКАЯ АКТИВНОСТЬ
+						</h2>
+						<h2 class="title" lang="en">Physical activity
+						</h2>
+					</div>
+					<div class="physical-activity__sub-title" lang="ru">ИСКЛЮЧАЯ
+						ТРЕНИРОВКИ</div>
+					<div class="physical-activity__sub-title" lang="en">exclude workouts</div>
+					<form action="#" class="physical-activity__form">
+						<input id="physical-activity__1" type="radio" name="physical-activity__radio" value="0">
+						<label for="physical-activity__1" class="physical-activity__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								работа
+								в
+								офисе / сижу
+								дома
+							</span>
+							<span lang="en">
+								Job in office / sit houses
+							</span></label>
+						<input id="physical-activity__2" type="radio" name="physical-activity__radio" value="1">
+						<label for="physical-activity__2" class="physical-activity__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								лёгкий
+								физический труд / частые прогулки
+							</span>
+							<span lang="en">
+								light
+								physical labor / frequent walks
+							</span>
+						</label>
+						<input id="physical-activity__3" type="radio" name="physical-activity__radio" value="2">
+						<label for="physical-activity__3" class="physical-activity__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								тяжёлый
+								физический
+								труд
+							</span>
+							<span lang="en">
+								hard
+								physical labor
+							</span>
+						</label>
+						<div class="physical-activity__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+								src="img/svg/back-btn.svg" alt=""> <span lang="ru">Назад</span>
+							<span lang="en">Back</span>
+						</div>
+					</form>
+					<div class="happe-women">
+						<img src="img/happy-women.png" alt="">
+					</div>
+				</div>
+			</li>
+			<li id="page_3">
+				<div class="physical-load _container">
+					<div class="title-center">
+						<h2 class="title" lang="ru">Физические нагрузки
+						</h2>
+						<h2 class="title" lang="en">Physical
+							load
+						</h2>
+					</div>
+					<form action="#" class="physical-load__form">
+						<input id="physical-load__1" type="radio" name="physical-load__radio" value="1">
+						<label for="physical-load__1" class="physical-load__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								Минимум или
+								полное отсутствие
+							</span>
+							<span lang="en">
+								minimum or complete absence
+							</span>
+						</label>
+						<input id="physical-load__2" type="radio" name="physical-load__radio" value="2">
+						<label for="physical-load__2" class="physical-load__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								небольшие 1-3
+								раза в неделю
+							</span>
+							<span lang="en">
+								small 1-3
+								once a week
+							</span></label>
+						<input id="physical-load__3" type="radio" name="physical-load__radio" value="3">
+						<label for="physical-load__3" class="physical-load__choose-button _button _dinamic-btn">
+							<span lang="ru">
+								3-5
+								раз в неделю
+							</span>
+							<span lang="en">
+								3-5 once a week
+							</span></label>
+						<input id="physical-load__4" type="radio" name="physical-load__radio" value="4">
+						<label for="physical-load__4" class="physical-load__choose-button _button _dinamic-btn">
+
+							<span lang="ru">
+								Каждый
+								день
+							</span>
+							<span lang="en">
+								Everyday
+							</span></label>
+						<div class="physical-load__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+								src="img/svg/back-btn.svg" alt=""> <span lang="ru">Назад</span>
+							<span lang="en">Back</span>
+						</div>
+					</form>
+					<div class="physical-load__bg">
+						<div class="man-with-woman">
+							<img src="img/manwoman.png" alt="">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li id="page_4">
+				<div class="BMI _container">
+					<div class="title-center">
+						<h2 class="title" lang="ru">Индексы массы тела
+						</h2>
+						<h2 class="title" lang="en">Body mass indices
+						</h2>
+					</div>
+					<form action="#" class="BMI__form">
+						<div class="input-wrapper">
+							<input tabindex="1" name="date" class="BMI__input" placeholder="Дата рождения" type="text"
+								onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+							<div class="calendar-icon _BMI__icon"></div>
+						</div>
+						<div class="input-wrapper">
+							<input tabindex="2" type="number" name="BMI__height" class="BMI__input" placeholder="Рост">
+							<div class="height-icon _BMI__icon"></div>
+							<span class="BMI__span"><span lang="ru">.см</span><span lang="en">.cm</span></span>
+						</div>
+						<div class="input-wrapper">
+							<input tabindex="3" type="number" name="BMI__weight" class="BMI__input" placeholder="Вес">
+							<div class="weight-icon _BMI__icon"></div>
+							<span class="BMI__span"><span lang="ru">.кг</span><span lang="en">.kg</span></span>
+						</div>
+						<div id="BMI-calc" class="BMI_calc-btn _button"><span lang="ru">Расчитать</span> <span
+								lang="en">Calculate</span></div>
+						<div class="BMI__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+								src="img/svg/back-btn.svg">
+							<span lang="ru">Назад</span>
+							<span lang="en">Back</span>
+						</div>
+					</form>
+					<div class="BMI__fat-info">
+						<div id="weight-circle" class="fat-circle">25.3</div>
+						<ul class="weight-estimate">
+							<li id="weight-1" class="li-active"><img src="img/svg/weight estimate/1.svg" alt=""><span
+									lang="ru">Недостаточный вес</span> <span lang="en">Underweight</span></li>
+							<li id="weight-2" class="li-active"><img src="img/svg/weight estimate/2.svg" alt=""><span
+									lang="ru">Нормальный вес</span><span lang="en">Normal weight</span>
+							</li>
+							<li id="weight-3"><img src="img/svg/weight estimate/3.svg" alt=""><span lang="ru">Избыточный
+									вес</span><span lang="en">Overweight</span></li>
+							<li id="weight-4"><img src="img/svg/weight estimate/4.svg" alt=""><span lang="ru">Ожирение I
+									степени</span><span lang="en">I degree obesity</span></li>
+							<li id="weight-5"><img src="img/svg/weight estimate/5.svg" alt=""><span lang="ru">Ожирение II
+									степени</span><span lang="en">II degree obesity</span></li>
+							<li id="weight-6"><img src="img/svg/weight estimate/6.svg" alt=""><span lang="ru">Ожирение III
+									степени</span><span lang="en">III degree obesity</span></li>
+						</ul>
+						<div class="BMI__next-btn _next-btn _button" tabindex="4"><span lang="ru">ДАЛЕЕ >></span><span
+								lang="en">NEXT
+								>></span></div>
+					</div>
+				</div>
+			</li>
+			<li id="page_5">
+				<div class="allergy _container">
+					<div class="title-center">
+						<h2 class="title" lang="ru">Аллергия
+						</h2>
+						<h2 class="title" lang="en">Allergy
+						</h2>
+					</div>
+					<div class="allergy__on-off" lang="ru">
+						<span>Включить / </span>
+						<span> Исключить</span>
+					</div>
+					<div class="allergy__on-off" lang="en">
+						<span>Include / </span>
+						<span> Exclude</span>
+					</div>
+					<form action="#" class="allergy__form">
+						<div class="allergy__items">
+							<input id="allergy-1" type="checkbox" class="allergy__checkbox" name="allergy" value="no">
+							<label for="allergy-1" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Люди</p>
+								<p class="allergy__item-text" lang="en">People</p>
+							</label>
+							<input id="allergy-2" type="checkbox" class="allergy__checkbox" name="allergy" value="gluten">
+							<label for="allergy-2" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Глютен</p>
+								<p class="allergy__item-text" lang="en">Gluten</p>
+							</label>
+							<input id="allergy-3" type="checkbox" class="allergy__checkbox" name="allergy" value="lactose">
+							<label for="allergy-3" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">лактоза</p>
+								<p class="allergy__item-text" lang="en">lactose</p>
+							</label>
+							<input id="allergy-4" type="checkbox" class="allergy__checkbox" name="allergy" value="eggs">
+							<label for="allergy-4" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Яйца</p>
+								<p class="allergy__item-text" lang="en">Eggs</p>
+							</label>
+							<input id="allergy-5" type="checkbox" class="allergy__checkbox" name="allergy" value="fish">
+							<label for="allergy-5" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Рыбы</p>
+								<p class="allergy__item-text" lang="en">Fish</p>
+							</label>
+							<input id="allergy-6" type="checkbox" class="allergy__checkbox" name="allergy" value="seafood">
+							<label for="allergy-6" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Море-продукты</p>
+								<p class="allergy__item-text" lang="en">seafood</p>
+							</label>
+							<input id="allergy-7" type="checkbox" class="allergy__checkbox" name="allergy" value="soy">
+							<label for="allergy-7" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Соя</p>
+								<p class="allergy__item-text" lang="en">Soy</p>
+							</label>
+							<input id="allergy-8" type="checkbox" class="allergy__checkbox" name="allergy"
+								value="nuts and seeds">
+							<label for="allergy-8" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Орехи и семена</p>
+								<p class="allergy__item-text" lang="en">nuts and seeds</p>
+							</label>
+							<input id="allergy-9" type="checkbox" class="allergy__checkbox" name="allergy" value="honey">
+							<label for="allergy-9" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Мёд</p>
+								<p class="allergy__item-text" lang="en">Honey</p>
+							</label>
+							<input id="allergy-10" type="checkbox" class="allergy__checkbox" name="allergy" value="cow's milk">
+							<label for="allergy-10" class="allergy__item">
+								<div class="item-check"></div>
+								<div class="allergy__item-img"></div>
+								<p class="allergy__item-text" lang="ru">Коровье молоко</p>
+								<p class="allergy__item-text" lang="en">Cow's milk</p>
+							</label>
+						</div>
+						<div class="individual-products">
+							<div class="individual-products__add">
+								<h3 lang="ru">Исключить отдельные продукты</h3>
+								<h3 lang="en">Exclude individual products</h3>
+								<input id="product" name="product" list="products" class="individual-products__input">
+								<datalist id="products">
+									<option value="Яблоко"></option>
+									<option value="Апельсин"></option>
+									<option value="Банан"></option>
+									<option value="Грецкий орех"></option>
+									<option value="Морковь"></option>
+									<option value="Шоколад"></option>
+									<option value="Кокос"></option>
+									<option value="Бразильский орех"></option>
+									<option value="Арахис"></option>
+									<option value="Лесной орех"></option>
+									<option value="Клубника"></option>
+									<option value="Грибы"></option>
+									<option value="Ананас"></option>
+									<option value="Малина"></option>
+									<option value="Капуста"></option>
+									<option value="Греча"></option>
+									<option value="Кофе"></option>
+								</datalist>
+								<div class="product-add _button"><span lang="ru">Добавить</span><span lang="en">Add</span></div>
+							</div>
+							<ul class="individual-products__list">
+							</ul>
+						</div>
+						<div class="individual-products__back-btn _back-btn _button"><img src="img/svg/back-btn.svg"
+								alt=""><img src="img/svg/back-btn.svg">
+							<span lang="ru">Назад</span>
+							<span lang="en">Back</span>
+						</div>
+					</form>
+					<div class="next-btn__wrapper">
+						<div class="individual-products__next-btn _next-btn _button" tabindex="4"><span lang="ru">ДАЛЕЕ
+								>></span><span lang="en">NEXT
+								>></span></div>
+					</div>
+					<img src="img/allergy__bg.png" class="allergy__bg">
+				</div>
+			</li>
+			<li id="page_6">
+				<div class="goals _container">
+					<div class="title-center">
+						<h2 class="title" lang="ru">Цели
+						</h2>
+						<h2 class="title" lang="en">Goals
+						</h2>
+					</div>
+					<div class="goals__container">
+						<div class="goals-diet">
+							<p lang="ru">Цель диеты</p>
+							<p lang="en">Purpose of the diet</p>
+							<div class="goals-diet__checks">
+								<input id="goals-diet__1" type="radio" name="goals-diet" value="slimming">
+								<label for="goals-diet__1" class="goals-diet__check _button"><span
+										lang="ru">похудение</span><span lang="en">slimming</span></label>
+								<input id="goals-diet__2" type="radio" name="goals-diet" value="gaining-muscle-mass">
+								<label for="goals-diet__2" class="goals-diet__check _button"><span lang="ru">набор мышечной
+										массы</span><span lang="en">gaining muscle mass</span></label>
+								<input id="goals-diet__3" type="radio" name="goals-diet" value="weight-retention">
+								<label for="goals-diet__3" class="goals-diet__check _button"><span lang="ru">удержание
+										веса</span> <span lang="en">weight retention</span></label>
+							</div>
+						</div>
+						<div class="goals-weight">
+							<p lang="ru">Установить цели для
+								веса</p>
+							<p lang="en">Set goals for
+								weights</p>
+							<div class="goals-weight__checks">
+								<input id="goals-weight__1" type="radio" name="goals-weight" value="NO">
+								<label for="goals-weight__1" class="goals-weight__check _button"><span lang="ru">НЕТ,
+										СПАСИБО</span><span lang="en">NO, THANKS</span></label>
+								<input id="goals-weight__2" type="radio" name="goals-weight" value="YES" checked>
+								<label for="goals-weight__2" class="goals-weight__check _button"><span lang="ru">ДА,
+										ДАВАЙ</span><span lang="en">YES, LET'S GO</span></label>
+							</div>
+						</div>
+						<form action="#" class="goals-weight__board active" id="board-1">
+							<div class="goals-weight__row">
+								<div class="goals-weight__column-left" lang="ru">Желаемый вес</div>
+								<div class="goals-weight__column-left" lang="en">Desired weight</div>
+								<div class="goals-weight__column-right">
+									<div class="goals__input-wrapper">
+										<input tabindex="1" type="number" name="goal-weight" class="goals-weight__input"
+											placeholder="Вес">
+										<div class="weight-icon _goals__input-icon"></div>
+										<span class="goals__input-span"><span lang="ru">.кг</span><span
+												lang="en">.kg</span></span>
+									</div>
+								</div>
+							</div>
+							<div class="goals-weight__row">
+								<div class="goals-weight__column-left" lang="ru">Скорость изменения
+									веса</div>
+								<div class="goals-weight__column-left" lang="en">Weight change rate</div>
+								<div class="goals-weight__column-right">
+									<div class="range-wrapper"><input type="range" min="1" max="9" class="slider"
+											id="myRange"><output type="number" class="slider-output" id="amount">0.5</output><span
+											lang="ru">кг. В НЕДЕЛЮ</span><span lang="en">kg. per week</span></div>
+								</div>
+							</div>
+							<div class="goals-weight__row">
+								<div class="goals-weight__column-left"></div>
+								<div class="goals-weight__column-right">
+									<p class="goals-weight__result-date" id="goals-result-date"></p>
+
+									<p class="goals-weight__medical-notify" lang="ru">
+										Медики крайне не рекомендуют менять вес на более чем 0.9 кг в неделю. Это может навредить
+										вашему здоровью!
+									</p>
+									<p class="goals-weight__medical-notify" lang="en">
+										Doctors strongly advise against changing weight by more than 0.9 kg per week. It can hurt
+										your health!
+									</p>
+								</div>
+							</div>
+						</form>
+						<div class="goals-weight">
+							<p lang="ru">Хотите знать процент <br>
+								жира в организме?</p>
+							<p lang="en">Want to know your <br> body fat percentage?</p>
+							<div class="goals-weight__checks">
+								<input id="goals-fat__1" type="radio" name="goals-fat" value="NO">
+								<label for="goals-fat__1" class="goals-weight__check _button"><span lang="ru">НЕТ,
+										СПАСИБО</span><span lang="en">NO, THANKS</span></label>
+								<input id="goals-fat__2" type="radio" name="goals-fat" value="YES" checked>
+								<label for="goals-fat__2" class="goals-weight__check _button"><span lang="ru">ДА,
+										ДАВАЙ</span><span lang="en">YES, LET'S GO</span></label>
+							</div>
+						</div>
+						<form action="#" class="goals-weight__board active" id="board-2">
+							<div class="board-2__body">
+								<div class="goals__input-wrapper">
+									<input tabindex="2" type="number" name="neck-size" class="goals-weight__input"
+										placeholder="Обхват шеи">
+									<div class="neck-size _goals__input-icon"></div>
+									<span class="goals__input-span"><span lang="ru">.см</span><span lang="en">.cm</span></span>
+								</div>
+								<div class="goals__input-wrapper">
+									<input tabindex="3" type="number" name="waist-size" class="goals-weight__input"
+										placeholder="Обхват талии">
+									<div class="waist-size _goals__input-icon"></div>
+									<span class="goals__input-span"><span lang="ru">.см</span><span lang="en">.cm</span></span>
+								</div>
+								<div class="goals__input-wrapper">
+									<input tabindex="4" type="number" name="hips-size" class="goals-weight__input"
+										placeholder="Обхват бёдер">
+									<div class="hips-size _goals__input-icon"></div>
+									<span class="goals__input-span"><span lang="ru">.см</span><span lang="en">.cm</span></span>
+								</div>
+								<div id="fat-calc" class="BMI_calc-btn _button"><span lang="ru">Расчитать</span> <span
+										lang="en">Calculate</span></div>
+								<div class="fat-procent">
+									<span class="fat-procent__span" lang="ru">% жира</span>
+									<span class="fat-procent__span" lang="en">% fat</span>
+									<div id="fat-circle" class="fat-circle">0</div>
+									<ul class="fat-estimate">
+										<li class="li-active" id="fat-estimate__1">
+											<svg width="33" height="52" viewBox="0 0 33 52" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M15.9995 13C19.5894 13 22.4995 10.0899 22.4995 6.5C22.4995 2.91015 19.5894 0 15.9995 0C12.4097 0 9.49951 2.91015 9.49951 6.5C9.49951 10.0899 12.4097 13 15.9995 13Z"
+													fill="#0052B4" />
+												<path
+													d="M23.9926 33.9625L22.7791 19.1783C22.6431 17.5078 21.5016 16.25 20.1281 16.25H11.8737C10.4976 16.25 9.35608 17.5078 9.22006 19.175L8.00658 33.9625C7.96924 34.4207 8.09193 34.8725 8.34529 35.217C8.59599 35.555 8.95603 35.75 9.33208 35.75H10.7909L11.8844 49.075C12.0204 50.739 13.1646 52 14.5407 52H17.4611C18.8373 52 19.9787 50.739 20.1147 49.075L21.2082 35.75H22.6671C23.0458 35.75 23.4032 35.555 23.6565 35.217C23.9099 34.8758 24.0326 34.4207 23.9926 33.9625Z"
+													fill="#0052B4" />
+												<path
+													d="M12.7314 24.9609C12.7314 24.3685 12.891 23.8786 13.21 23.4912C13.5335 23.0993 13.9528 22.9033 14.4678 22.9033C14.9782 22.9033 15.3952 23.0947 15.7188 23.4775C16.0469 23.8604 16.2109 24.3639 16.2109 24.9883V25.4873C16.2109 26.0843 16.0492 26.5742 15.7256 26.957C15.4066 27.3398 14.9919 27.5312 14.4814 27.5312C13.971 27.5312 13.5518 27.3398 13.2236 26.957C12.8955 26.5742 12.7314 26.0706 12.7314 25.4463V24.9609ZM13.6133 25.4873C13.6133 25.8519 13.693 26.1481 13.8525 26.376C14.012 26.5993 14.2217 26.7109 14.4814 26.7109C14.7321 26.7109 14.9349 26.6016 15.0898 26.3828C15.2493 26.1595 15.3291 25.8519 15.3291 25.46V24.9609C15.3291 24.5918 15.2493 24.2956 15.0898 24.0723C14.9303 23.8444 14.723 23.7305 14.4678 23.7305C14.208 23.7305 14.0007 23.8444 13.8457 24.0723C13.6908 24.3001 13.6133 24.6032 13.6133 24.9814V25.4873ZM16.751 30.5596C16.751 29.9626 16.9128 29.4727 17.2363 29.0898C17.5599 28.7025 17.9769 28.5088 18.4873 28.5088C18.9977 28.5088 19.417 28.7002 19.7451 29.083C20.0732 29.4658 20.2373 29.974 20.2373 30.6074V31.0928C20.2373 31.6943 20.0732 32.1865 19.7451 32.5693C19.417 32.9521 19.0023 33.1436 18.501 33.1436C17.9906 33.1436 17.5713 32.9521 17.2432 32.5693C16.915 32.1865 16.751 31.6829 16.751 31.0586V30.5596ZM17.6328 31.0928C17.6328 31.4619 17.7126 31.7604 17.8721 31.9883C18.0316 32.2116 18.2412 32.3232 18.501 32.3232C18.7562 32.3232 18.9613 32.2093 19.1162 31.9814C19.2712 31.7536 19.3486 31.4505 19.3486 31.0723V30.5596C19.3486 30.1904 19.2689 29.8942 19.1094 29.6709C18.9499 29.4476 18.7425 29.3359 18.4873 29.3359C18.2367 29.3359 18.0316 29.4476 17.8721 29.6709C17.7126 29.8896 17.6328 30.1927 17.6328 30.5801V31.0928ZM14.7275 32.248L14.0645 31.7969L18.1455 24.0176L18.8154 24.4688L14.7275 32.248Z"
+													fill="white" />
+												<path
+													d="M5.35355 26.6464C5.54882 26.8417 5.54882 27.1583 5.35355 27.3536L2.17157 30.5355C1.97631 30.7308 1.65973 30.7308 1.46447 30.5355C1.2692 30.3403 1.2692 30.0237 1.46447 29.8284L4.29289 27L1.46447 24.1716C1.2692 23.9763 1.2692 23.6597 1.46447 23.4645C1.65973 23.2692 1.97631 23.2692 2.17157 23.4645L5.35355 26.6464ZM0 26.5H5V27.5H0L0 26.5Z"
+													fill="#FFD600" />
+												<path
+													d="M27.6464 26.6464C27.4512 26.8417 27.4512 27.1583 27.6464 27.3536L30.8284 30.5355C31.0237 30.7308 31.3403 30.7308 31.5355 30.5355C31.7308 30.3403 31.7308 30.0237 31.5355 29.8284L28.7071 27L31.5355 24.1716C31.7308 23.9763 31.7308 23.6597 31.5355 23.4645C31.3403 23.2692 31.0237 23.2692 30.8284 23.4645L27.6464 26.6464ZM33 26.5H28V27.5H33V26.5Z"
+													fill="#FFD600" />
+											</svg>
+
+											<span lang="ru">Низкий</span> <span lang="en">Low</span>
+										</li>
+										<li id="fat-estimate__2"><img src="img/svg/man-green.svg" alt=""><span
+												lang="ru">Средний</span><span lang="en">Avarage</span>
+										</li>
+										<li id="fat-estimate__3"><svg width="35" height="52" viewBox="0 0 35 52" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M16.9995 13C20.5894 13 23.4995 10.0899 23.4995 6.5C23.4995 2.91015 20.5894 0 16.9995 0C13.4097 0 10.4995 2.91015 10.4995 6.5C10.4995 10.0899 13.4097 13 16.9995 13Z"
+													fill="#CC202D" />
+												<path
+													d="M28.9888 33.9625L27.1686 19.1783C26.9646 17.5078 25.2524 16.25 23.1921 16.25H10.8106C8.74633 16.25 7.03412 17.5078 6.8301 19.175L5.00987 33.9625C4.95387 34.4207 5.13789 34.8725 5.51793 35.217C5.89398 35.555 6.43405 35.75 6.99812 35.75H9.18639L10.8266 49.075C11.0306 50.739 12.7468 52 14.8111 52H19.1916C21.2559 52 22.9681 50.739 23.1721 49.075L24.8123 35.75H27.0006C27.5687 35.75 28.1047 35.555 28.4848 35.217C28.8648 34.8758 29.0488 34.4207 28.9888 33.9625Z"
+													fill="#CC202D" />
+												<path
+													d="M13.7314 24.9609C13.7314 24.3685 13.891 23.8786 14.21 23.4912C14.5335 23.0993 14.9528 22.9033 15.4678 22.9033C15.9782 22.9033 16.3952 23.0947 16.7188 23.4775C17.0469 23.8604 17.2109 24.3639 17.2109 24.9883V25.4873C17.2109 26.0843 17.0492 26.5742 16.7256 26.957C16.4066 27.3398 15.9919 27.5312 15.4814 27.5312C14.971 27.5312 14.5518 27.3398 14.2236 26.957C13.8955 26.5742 13.7314 26.0706 13.7314 25.4463V24.9609ZM14.6133 25.4873C14.6133 25.8519 14.693 26.1481 14.8525 26.376C15.012 26.5993 15.2217 26.7109 15.4814 26.7109C15.7321 26.7109 15.9349 26.6016 16.0898 26.3828C16.2493 26.1595 16.3291 25.8519 16.3291 25.46V24.9609C16.3291 24.5918 16.2493 24.2956 16.0898 24.0723C15.9303 23.8444 15.723 23.7305 15.4678 23.7305C15.208 23.7305 15.0007 23.8444 14.8457 24.0723C14.6908 24.3001 14.6133 24.6032 14.6133 24.9814V25.4873ZM17.751 30.5596C17.751 29.9626 17.9128 29.4727 18.2363 29.0898C18.5599 28.7025 18.9769 28.5088 19.4873 28.5088C19.9977 28.5088 20.417 28.7002 20.7451 29.083C21.0732 29.4658 21.2373 29.974 21.2373 30.6074V31.0928C21.2373 31.6943 21.0732 32.1865 20.7451 32.5693C20.417 32.9521 20.0023 33.1436 19.501 33.1436C18.9906 33.1436 18.5713 32.9521 18.2432 32.5693C17.915 32.1865 17.751 31.6829 17.751 31.0586V30.5596ZM18.6328 31.0928C18.6328 31.4619 18.7126 31.7604 18.8721 31.9883C19.0316 32.2116 19.2412 32.3232 19.501 32.3232C19.7562 32.3232 19.9613 32.2093 20.1162 31.9814C20.2712 31.7536 20.3486 31.4505 20.3486 31.0723V30.5596C20.3486 30.1904 20.2689 29.8942 20.1094 29.6709C19.9499 29.4476 19.7425 29.3359 19.4873 29.3359C19.2367 29.3359 19.0316 29.4476 18.8721 29.6709C18.7126 29.8896 18.6328 30.1927 18.6328 30.5801V31.0928ZM15.7275 32.248L15.0645 31.7969L19.1455 24.0176L19.8154 24.4688L15.7275 32.248Z"
+													fill="white" />
+												<path
+													d="M0.646447 26.6464C0.451184 26.8417 0.451184 27.1583 0.646447 27.3536L3.82843 30.5355C4.02369 30.7308 4.34027 30.7308 4.53553 30.5355C4.7308 30.3403 4.7308 30.0237 4.53553 29.8284L1.70711 27L4.53553 24.1716C4.7308 23.9763 4.7308 23.6597 4.53553 23.4645C4.34027 23.2692 4.02369 23.2692 3.82843 23.4645L0.646447 26.6464ZM6 26.5H1V27.5H6V26.5Z"
+													fill="#FFD600" />
+												<path
+													d="M34.3536 26.6464C34.5488 26.8417 34.5488 27.1583 34.3536 27.3536L31.1716 30.5355C30.9763 30.7308 30.6597 30.7308 30.4645 30.5355C30.2692 30.3403 30.2692 30.0237 30.4645 29.8284L33.2929 27L30.4645 24.1716C30.2692 23.9763 30.2692 23.6597 30.4645 23.4645C30.6597 23.2692 30.9763 23.2692 31.1716 23.4645L34.3536 26.6464ZM29 26.5H34V27.5H29V26.5Z"
+													fill="#FFD600" />
+											</svg>
+											<span lang="ru">Высокий</span><span lang="en">Hight</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</form>
+						<div class="goals__next-btn _next-btn _button" tabindex="4"><span lang="ru">ДАЛЕЕ >></span><span
+								lang="en">NEXT
+								>></span></div>
+					</div>
+					<div class="goals__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+							src="img/svg/back-btn.svg">
+						<span lang="ru">Назад</span>
+						<span lang="en">Back</span>
+					</div>
+					<img src="img/goals__bg.png" class="goals__bg">
+				</div>
+			</li>
+			<li id="page_7">
+				<div class="personal-data _container">
+					<h2 class="title" lang="ru">Личные данные
+					</h2>
+					<h2 class="title" lang="en">Personal data
+					</h2>
+					<form action="#" class="personal-data__form">
+						<p lang="ru">Эл.почта</p>
+						<p lang="en">Email</p>
+						<input type="email" name="email" placeholder="введите е-майл" class="personal-data__input">
+						<div class="personal-data__btn _button _next-btn"><span lang="ru">ЗАВЕРШИТЬ
+								РЕГИСТРАЦИЮ</span>
+							<span lang="en">COMPLETE REGISTRATION</span>
+						</div>
+					</form>
+					<div class="personal-data__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+							src="img/svg/back-btn.svg">
+						<span lang="ru">Назад</span>
+						<span lang="en">Back</span>
+					</div>
+
+
+					<img src="img/personal-date__bg-women.png" class="personal-data__bg-women">
+					<img src="img/personal-date__bg-food.png" class="personal-data__bg-food">
+				</div>
+			</li>
+			<li id="page_8">
+				<div class="summary _container">
+					<div class="summary__header">
+						<h3 lang="ru">Сводка</h3>
+						<h3 lang="en">Summary</h3>
+						<div class="parametrs">
+							<div class="parametr">
+								<div class="parametr__icon">
+									<img src="img/svg/gender.svg" alt="">
+								</div>
+								<img src="img/svg/yellow-man.svg" alt="">
+								<p id="parametr-gender" class="parametr__text">-</p>
+							</div>
+							<div class="parametr">
+								<div class="parametr__icon">
+									<img src="img/svg/birthday-cake.svg" alt="">
+								</div>
+								<p id="parametr-age" class="parametr__val">-</p>
+								<p class="parametr__text" lang="ru">возраст</p>
+								<p class="parametr__text" lang="en">age</p>
+							</div>
+							<div class="parametr">
+								<div class="parametr__icon">
+									<img src="img/svg/weight-icon.svg" alt="">
+								</div>
+								<p id="parametr-weight" class="parametr__val">-</p>
+								<p class="parametr__text" lang="ru">вес</p>
+								<p class="parametr__text" lang="en">weight</p>
+							</div>
+							<div class="parametr">
+								<div class="parametr__icon">
+									<img src="img/svg/height-icon.svg" alt="">
+								</div>
+								<p id="parametr-height" class="parametr__val">-</p>
+								<p class="parametr__text" lang="ru">рост</p>
+								<p class="parametr__text" lang="en">height</p>
+							</div>
+						</div>
+					</div>
+					<div class="summary__items">
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Индекс массы тела</h4>
+							<h4 class="summary__item-title" lang="en">Body mass index</h4>
+							<div class="fat-circle" id="summary__bmi-circle">0</div>
+						</div>
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Процент жира</h4>
+							<h4 class="summary__item-title" lang="en">Fat percentage</h4>
+							<img src="img/svg/muscle-man.svg" alt="" class="summary__muscle-man">
+							<p class="summary__procent-fat-p">0</p>
+						</div>
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Необходимая энергия</h4>
+							<h4 class="summary__item-title" lang="en">Required energy</h4>
+							<img src="img/svg/speed.svg" alt="" class="speed">
+							<div class="summary__energy">
+								<span>1000</span>
+								<div class="number-energy" lang="ru">
+									<span id="summary-kcal">1850</span><br>
+									ккал
+								</div>
+								<div class="number-energy" lang="en">
+									<span id="summary-kcal">1850</span><br>
+									kcal
+								</div>
+								<span>5000</span>
+							</div>
+						</div>
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Распределение</h4>
+							<h4 class="summary__item-title" lang="en">Distribution</h4>
+							<div class="summary__distribution-option">
+								<p class="summary__over-slider" lang="ru">белки</p>
+								<p class="summary__over-slider" lang="en">protein</p>
+								<div class="summary__slider-wrapper">
+									<input type="range" min="0" max="100" class="summary__slider" id="summary__slider-1"
+										value="20">
+									<output type="number" class="summary__slider-output" id="summary__output-1">20%</output>
+								</div>
+							</div>
+							<div class="summary__distribution-option">
+								<p class="summary__over-slider" lang="ru">жиры</p>
+								<p class="summary__over-slider" lang="en">fats</p>
+								<div class="summary__slider-wrapper">
+									<input type="range" min="0" max="100" class="summary__slider" id="summary__slider-1"
+										value="60">
+									<output type="number" class="summary__slider-output" id="summary__output-1">60%</output>
+								</div>
+							</div>
+							<div class="summary__distribution-option">
+								<p class="summary__over-slider" lang="ru">углеводы</p>
+								<p class="summary__over-slider" lang="en">carbohydrates</p>
+								<div class="summary__slider-wrapper">
+									<input type="range" min="0" max="100" class="summary__slider" id="summary__slider-1"
+										value="20">
+									<output type="number" class="summary__slider-output" id="summary__output-1">20%</output>
+								</div>
+							</div>
+						</div>
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Потребление воды</h4>
+							<h4 class="summary__item-title" lang="en">Water consumption</h4>
+							<div class="summary-water__imgs">
+								<div class="water-lvl">
+									<img src="img/svg/water-lvl.svg" alt="">
+									<span class="water-lvl__number-10" lang="ru">10 л</span>
+									<span class="water-lvl__number-10" lang="en">10 L</span>
+									<span class="water-lvl__number-3" lang="ru">3 л</span>
+									<span class="water-lvl__number-3" lang="en">3 L</span>
+								</div>
+								<div class="cup-of-water__wrapper"><img src="img/svg/cup-of-water.svg" alt="">
+									<span id="water-need"></span>
+								</div>
+							</div>
+							<span class="summary-water__recomened" lang="ru">рекомендуемое</span>
+							<span class="summary-water__recomened" lang="en">recommended</span>
+						</div>
+						<div class="summary__item">
+							<h4 class="summary__item-title" lang="ru">Изменения веса</h4>
+							<h4 class="summary__item-title" lang="en">Weight changes</h4>
+							<img src="img/svg/weight-changes.svg">
+						</div>
+					</div>
+					<div class="summary__back-btn _back-btn _button"><img src="img/svg/back-btn.svg" alt=""><img
+							src="img/svg/back-btn.svg">
+						<span lang="ru">Назад</span>
+						<span lang="en">Back</span>
+					</div>
+					<img src="img/summary__bg.png" class="summary__bg">
+				</div>
+			</li>
+			<div class="progress-board _container">
+				<div class="progress-board__items not-active">
+					<input id="progress-board__8" type="radio" value="8" name="progress" class="progress-board__item">
+					<label for="progress-board__8" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-8.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Сводка</span>
+						<span lang="en">Summary</span>
+					</label>
+					<input id="progress-board__7" type="radio" value="7" name="progress" class="progress-board__item">
+					<label for="progress-board__7" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-7.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Личные данные</span>
+						<span lang="en">Personal data</span>
+					</label>
+					<input id="progress-board__6" type="radio" value="6" name="progress" class="progress-board__item">
+					<label for="progress-board__6" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-6.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Цели</span>
+						<span lang="en">Goals</span>
+					</label>
+					<input id="progress-board__5" type="radio" value="5" name="progress" class="progress-board__item">
+					<label for="progress-board__5" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-5.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Аллергия</span>
+						<span lang="en">Allergy</span>
+					</label>
+					<input id="progress-board__4" type="radio" value="4" name="progress" class="progress-board__item">
+					<label for="progress-board__4" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-4.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Индексы массы тела</span>
+						<span lang="en">Body mass indices</span>
+					</label>
+					<input id="progress-board__3" type="radio" value="3" name="progress" class="progress-board__item">
+					<label for="progress-board__3" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-3.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Физические
+							нагрузки</span>
+						<span lang="en">Physical
+							load</span>
+					</label>
+					<input id="progress-board__2" type="radio" value="2" name="progress" class="progress-board__item">
+					<label for="progress-board__2" class="progress-board__pin">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-2.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Физическая
+							активность</span>
+						<span lang="en">Physical activity</span>
+					</label>
+					<input id="progress-board__1" type="radio" value="1" name="progress" class="progress-board__item active"
+						checked>
+					<label for="progress-board__1" class="progress-board__pin done active">
+						<div class="wrapper__pin-hover">
+							<div class="pin-hover">
+								<img src="img/svg/progress-board__hover-1.svg" alt="">
+								<img src="img/svg/progress-board__hover-circle.svg" alt="">
+							</div>
+						</div>
+						<span lang="ru">Пол</span>
+						<span lang="en">Gender</span>
+					</label>
+					<div class="m-progress-board__lines">
+						<span class="m-progress-board__line not-active"></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="progress-board__lines">
+					<label for="progress-board__8" class="progress-board__line"></label>
+					<label for="progress-board__7" class="progress-board__line"></label>
+					<label for="progress-board__6" class="progress-board__line"></label>
+					<label for="progress-board__5" class="progress-board__line"></label>
+					<label for="progress-board__4" class="progress-board__line"></label>
+					<label for="progress-board__3" class="progress-board__line"></label>
+					<label for="progress-board__2" class="progress-board__line"></label>
+				</div>
+			</div>
+		</ul>
+
+
+		<img src="img/bg-green.png" class="bg__green-1">
+		<img src="img/bg-green2.png" class="bg__green-2">
+		<footer class="footer">
+			<div class="footer__top _container">
+
+				<a href="#" lang="ru">Контакты</a>
+				<a href="#" lang="en">Contacts</a>
+				<a href="#" lang="ru">Часто задаваемые вопросы</a>
+				<a href="#" lang="en">Frequently asked Questions</a>
+				<a href="#" lang="ru">Условия</a>
+				<a href="#" lang="en">Conditions</a>
+				<span class="icons">
+					<a href="https://vk.com/yellbee"><img src="img/svg/facebook.svg"></a>
+					<a href="https://www.instagram.com/igorinium/?hl=ru"><img src="img/svg/instagram.svg"></a>
+					<a href="https://www.youtube.com/watch?v=vqg-Wpg4JP0"><img src="img/svg/youtube.svg"></a>
+				</span>
+
+			</div>
+			<div class="footer__bottom">
+				<span lang="ru">© 2020. Все права защищены. Копирование материала с этого сайта возможно только с разрешения
+					правообладателя и с размещением ссылки на первоисточник.
+				</span>
+				<span lang="en">© 2020. All rights reserved. Copying material from this site is possible only with
+					permission
+					copyright holder and linking to the source.
+				</span>
+			</div>
+		</footer>
+		<div class="bg">
+			<img src="img/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-bowl-buddha-dark-top-view.png"
+				alt="">
+		</div>
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<div class="popup__close">X</div>
+					<h2 class="popup__title">Примечание!</h2>
+					<div class="popup__text">На этом этапе я не смог сделать все ячейки рабочими, так как я брал макет для
+						тренировки и с заказчиком не общался. У меня нет нужных формул для расчёта ячейки "Распределение" и
+						"Изменения веса", поэтому я
+						просто взял значения из макета и вставил на страницу. Также, в отличие от макета, тут нет продолжения
+						с оплатой собственной программы питания.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
